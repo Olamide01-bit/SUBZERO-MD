@@ -10,7 +10,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
     
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~mTS1qGvwCWhr69BFGdiC",
+    SESSION_ID: process.env.SESSION_ID || "",
     PREFIX: process.env.PREFIX || ".",
     BOT_NAME: process.env.BOT_NAME || "SUBZERO-MD",
     MODE: process.env.MODE || "public",
